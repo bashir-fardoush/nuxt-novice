@@ -1,13 +1,7 @@
 <template>
-  <div>
-    <!-- <NuxtWelcome /> -->
-    Hello NUXTJS, It's amazing to start it.
-
-    <hr>
-    <button @click="increment">Increment</button>
+  <button @click="increment">Increment</button>
     <p>{{ count }}</p>
     <button @click="decrement">Decrement</button>
-  </div>
 </template>
 <script setup>
 const count = ref(0);
