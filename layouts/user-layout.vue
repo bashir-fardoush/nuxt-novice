@@ -1,6 +1,6 @@
 <template>
   <main class="user-layout">
-    <aside class="sidebar">
+    <aside class="sidebar bg-blue-300">
       <p>Dashboard</p>
       <p>Settings</p>
     </aside>
